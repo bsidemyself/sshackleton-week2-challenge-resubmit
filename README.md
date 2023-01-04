@@ -9,7 +9,7 @@ The purpose of this project is to make a student portfolio page for myself with 
 * when a user clicks on the first two Project section photos, they are redirected to those projects deployed applications.  The second two photos just link to the photos themselves as they don't have projects to link to yet.
 * when you resize the viewport of the portfolio page, the repsonsive layout adjusts to the screen size.
 ## Link to Deployed Application
-
+https://bsidemyself.github.io/sshackleton-week2-challenge-resubmit/
 ## Credits
 Stephen Shackleton for the code and layout, the images are royalty-free and property of their respective owners.
 ## References & Tutorials
