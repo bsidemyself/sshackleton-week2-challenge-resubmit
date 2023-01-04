@@ -1,34 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
-    <link rel="stylesheet" href="./assets/style.css" />
+    <meta charset="UTF-8">
+    <title>Stephen Shackleton Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/style.css">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Password Generator</h1>
-      </header>
-      <div class="card">
-        <div class="card-header">
-          <h2>Generate a Password</h2>
-        </div>
-        <div class="card-body">
-          <textarea
-            readonly
-            id="password"
-            placeholder="Your Secure Password"
-            aria-label="Generated Password"
-          ></textarea>
-        </div>
-        <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
-        </div>
-      </div>
-    </div>
-    <script src="script.js"></script>
+    <header>
+        <nav>
+            <ul class="page-nav-list">
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+        <h2 class="name-title">Stephen Shackleton</h2>
+
+
+    </header>
+    <section class="top-photo">
+        <h3 class="tagline">...never stop learning</h3></a>
+    </section>
+    <main>
+        <section id="about-me">
+            <h2 class="section-header">About Me</h2>
+                <div>
+                    <img src="../assets/me-photo-cropped.jpg" alt="photo of Stephen" id="head-shot"/>
+                <p>I was born in California but grew up in Houston, Texas before moving back here in 2002.  I've spent over 20 years in the sign & graphic industry in graphic design, sales and finally as the owner of my own shop in Carlsbad. Some notable clients included the La Costa Resort and the Carlsbad Outlet Mall, where I outfitted both places with most of their signage.  Things got tough after the pandemic so I decided to seek a new career path in web development. I hope to use this space to showcase my web development work, as well as the skills I learned in design and customer service from my previous career.</p>
+                <p>Please have a look around and feel free to reach out to me at the contacts below. Thank you!</p>
+                </div>
+        </section>
+        <section id="projects">
+            <h2 class="section-header">Projects</h2>
+                <div class="project-photos">
+                    <figure id="first-project">
+                        <a href="https://bsidemyself.github.io/prework-study-guide/">
+                            <img src='../assets/project-1-photo.jpg' alt='photo of a nebula'>
+                        </a>
+                        <figcaption>Bootcamp Prework Study Guide</figcaption>
+                    </figure>
+
+                    <figure>
+                        <a href="https://bsidemyself.github.io/sshackleton-week1-challenge/">
+                        <img src='../assets/space-photo-2.jpg' alt='photo of a earth'>
+                        </a>
+                        <figcaption>Horiseon Accessibility Refactor</figcaption>
+                    </figure>
+
+                    <figure>
+                        <a href="../assets/space-photo-3.jpg">
+                        <img src='../assets/space-photo-3.jpg' alt='photo of yellow star'>
+                        </a>
+                         <figcaption>Style Page for a Yellow Star</figcaption>
+                    </figure>
+
+                    <figure>
+                        <a href="../assets/space-photo-4.jpg">
+                        <img src='../assets/space-photo-4.jpg' alt='photo of purple star'>
+                        </a>
+                        <figcaption>The Purple Star Readme</figcaption>
+                    </figure>
+                 </div>
+        </section>
+        <section id="contact-me">
+            <h2 class="section-header">Contact Me</h2>
+            <ul class="contact-info">
+                <li>shackletron@mail.com</li>
+                <li>760.840.0000</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <h5>&copy; 2022 Stephen Shackleton. Royalty-free images used copyright their respective owners.</h5>
+    </footer>
   </body>
-</html>
+  </html>
